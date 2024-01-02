@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For GigaAudio
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+GigaAudio	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+load	KEYWORD2
+play	KEYWORD2
+shuffle	KEYWORD2
+pause	KEYWORD2
+stop	KEYWORD2
+stop	KEYWORD2
+next	KEYWORD2
+prev	KEYWORD2
+size	KEYWORD2
+getFile	KEYWORD2
+
+isFinished	KEYWORD2
+isPlaying	KEYWORD2
+currentFile	KEYWORD2
+hasError	KEYWORD2
+errorMessage	KEYWORD2
+
+######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
