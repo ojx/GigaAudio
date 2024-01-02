@@ -9,7 +9,7 @@ GigaAudio audio("USB_VOL"); // replace with name of USB volume
 void setup() {
     Serial.begin(9600);
 
-    if !(audio.load("song.wav")) { // replace with name of file to play
+    if (!audio.load("song.wav")) { // replace with name of file to play
         Serial.println("Cannot load WAV file");
         return;
     }
