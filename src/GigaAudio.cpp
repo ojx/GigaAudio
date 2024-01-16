@@ -166,6 +166,15 @@ void GigaAudio::update() {
   }
 }
 
+void GigaAudio::delay(int ms) {
+    int end = ms + millis();
+
+    while (millis() < end) {
+        if (_playing) {
+            _tick();
+        }
+    }
+}
 
 bool GigaAudio::isPlaying() {
   if (_playing) {

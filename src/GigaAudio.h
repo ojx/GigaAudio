@@ -22,6 +22,7 @@ class GigaAudio
     void stop();
     void next();
     void prev();
+    void delay(int ms);
     void update();
     bool isFinished();
     bool isPlaying();
